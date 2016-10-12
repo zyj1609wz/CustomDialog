@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
         }) ;
 
         Dialog dialog =  builder.create() ;
+        dialog.setCanceledOnTouchOutside( false );   //触摸dialog外部是否消失
 
         dialog.show();
     }
