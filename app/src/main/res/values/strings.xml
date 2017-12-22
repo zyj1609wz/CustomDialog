@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">CustomDialog</string>
+    <string name="yiba_wifi_detect_safe_des">检测WiFi安全</string>
+    <string name="yiba_wifi_detect_safe_tip">此WiFi已超过3天没有进行安全检测，可能存在风险</string>
+    <string name="yiba_wifi_detect_wifi_info_tip">连接至</string>
 </resources>

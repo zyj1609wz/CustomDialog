@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -8,16 +8,37 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.zyj.dialog.MainActivity">
+    tools:context="com.zyj.dialog.MainActivity"
+    android:orientation="vertical"
+    >
 
     <TextView
         android:id="@+id/tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="20dp"
-        android:text="显示自定义对话框"
         android:background="#333333"
         android:gravity="center"
-        android:textColor="#ffffff"
-        />
-</RelativeLayout>
+        android:padding="20dp"
+        android:text="显示自定义对话框"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#333333"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="启动Service,5秒后弹出Dialog"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#333333"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="注意：在Service 里面弹出 Dialog , targetSdkVersion 应该 <= 22 ，否则会有崩溃。"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

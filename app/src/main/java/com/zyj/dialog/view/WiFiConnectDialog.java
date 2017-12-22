@@ -65,7 +65,7 @@ public class WiFiConnectDialog extends BaseDialog  {
 
             LayoutInflater inflater = (LayoutInflater) context
                     .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            final WiFiConnectDialog dialog = new WiFiConnectDialog(context,  R.style.Dialog );
+            final WiFiConnectDialog dialog = new WiFiConnectDialog(context,  R.style.DialogStyle );
             View layout = inflater.inflate( R.layout.wifi_connect_dialog , null);
             dialog.addContentView(layout, new ViewGroup.LayoutParams(
                     ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
