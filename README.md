@@ -1,8 +1,11 @@
 # CustomDialog
 自定义Dialog
 
-![](/gif/dialog.png)
+-[x] 在Activity中弹出 Dialog
 
-![](/gif/dialog2.gif)
+-[x] 在Service中弹出 Dialog
+
+![](/gif/123.gif)
+
 
 
