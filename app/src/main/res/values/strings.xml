@@ -3,4 +3,5 @@
     <string name="yiba_wifi_detect_safe_des">检测WiFi安全</string>
     <string name="yiba_wifi_detect_safe_tip">此WiFi已超过3天没有进行安全检测，可能存在风险</string>
     <string name="yiba_wifi_detect_wifi_info_tip">连接至</string>
+    <string name="tip">注意：在Service 里面弹出 Dialog , targetSdkVersion 应该 小于或者等于 22 ，否则会有崩溃</string>
 </resources>

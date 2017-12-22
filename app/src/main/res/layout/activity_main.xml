@@ -38,7 +38,7 @@
         android:background="#333333"
         android:gravity="center"
         android:padding="20dp"
-        android:text="注意：在Service 里面弹出 Dialog , targetSdkVersion 应该 <= 22 ，否则会有崩溃。"
+        android:text="@string/tip"
         android:textColor="#ffffff" />
 
 </LinearLayout>
