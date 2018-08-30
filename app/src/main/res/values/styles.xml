@@ -16,15 +16,30 @@
     </style>
 
     <style name="yibaDialogTheme" parent="android:Theme.Dialog">
+        <!--除去title-->
         <item name="android:windowFrame">@null</item>
         <item name="android:windowIsFloating">true</item>
         <item name="android:windowIsTranslucent">false</item>
         <item name="android:windowNoTitle">true</item>
-        <!--除去title-->
+        <!--除去背景色-->
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:backgroundDimEnabled">true</item>
         <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="dialog1" parent="android:Theme.Dialog">
+        <!--除去title-->
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
         <!--除去背景色-->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--设置蒙版颜色透明度-->
+        <item name="android:backgroundDimAmount">0.4</item>
+
     </style>
 
 

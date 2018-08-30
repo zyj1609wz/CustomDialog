@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.zyj.dialog.service.MyService;
+import com.zyj.dialog.view.Dialog1;
 import com.zyj.dialog.view.WiFiConnectDialog;
 
 public class MainActivity extends AppCompatActivity {
@@ -31,6 +32,17 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), MyService.class);
                 getApplicationContext().startService(intent);
+            }
+        });
+
+        //自定义 Dialog 宽度
+        findViewById(R.id.tv3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Dialog1 dialog1 = new Dialog1.Builder(MainActivity.this)
+                        .create();
+
+                dialog1.show();
             }
         });
 

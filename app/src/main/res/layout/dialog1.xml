@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#449900"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="自定义 Dialog \n 宽度为屏幕宽度的 90% \n 蒙版透明度为 0.4" />
+
+</LinearLayout>
